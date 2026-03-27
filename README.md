@@ -31,4 +31,5 @@ It can successfully summarize technical "how-to" steps, such as locating install
 To ensure reliability, the system is designed to refuse questions outside the scope of the provided manuals (e.g., "What is the capital of India?").
 
 ![Grounding Test](images/Screenshot%202026-03-28%20001648.png)
+
 *Caption: Demonstrating that the model stays grounded to the provided data and does not hallucinate.*
