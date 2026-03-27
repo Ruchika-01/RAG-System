@@ -17,15 +17,15 @@ The following examples demonstrate the RAG pipeline's ability to extract accurat
 
 #### 1. Precise Fact Extraction & Citations
 The system correctly identifies warranty durations and cites the specific source documents (e.g., Maintenance and Service Guide).
-![Warranty Info](images/Screenshot 2026-03-28 001600.png)
+![Warranty Info](./images/Screenshot 2026-03-28 001600.png)
 *Caption: System retrieving specific warranty details with document citations.*
 
 #### 2. Procedural Guidance
 It can successfully summarize technical "how-to" steps, such as locating installed software within the OS.
-![Software Instructions](images/Screenshot 2026-03-28 001636.png)
+![Software Instructions](./images/Screenshot 2026-03-28 001636.png)
 *Caption: Step-by-step instructional retrieval from the user guide.*
 
 #### 3. Hallucination Prevention (Grounding Test)
 To ensure reliability, the system is designed to refuse questions outside the scope of the provided manuals (e.g., "What is the capital of India?").
-![Grounding Test](images/Screenshot 2026-03-28 001648.png)
+![Grounding Test](./images/Screenshot 2026-03-28 001648.png)
 *Caption: Demonstrating that the model stays grounded to the provided data and does not hallucinate.*
